@@ -1,0 +1,36 @@
+.calculator {
+  width: 200px;
+  margin-left: 150px;
+  margin-top: 100px;
+  border-radius: 3px;
+  background-color: #3c5b65;
+}
+.btn button {
+  width: 45px;
+  height: 30px;
+  padding: 2px;
+  background-color: #617884;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 2px;
+  color: whitesmoke;
+  /*padding-left:;*/
+}
+.input input {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding-left: 20px;
+  height: 23px;
+  text-align: right;
+}
+.input {
+  background-color: #3c5b65;
+  padding: 8px;
+  border-radius: 5px;
+}
+.btn button:nth-child(15),
+button:nth-child(4) {
+  background-color: red;
+}

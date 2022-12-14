@@ -1,0 +1,9 @@
+.parent {
+  display: flex;
+  display: block;
+}
+.checkBox1 {
+  color: aqua;
+  height: 25px;
+  width: 25px;
+}
