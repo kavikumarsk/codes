@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+
+  <body>
+      <!--<script type="text/javascrit" src="calc.js"></script>-->
+      <tr>
+        <table class="calculator">
+    
+          <tr >
+            <td colspan="3"> <input class="display" type="text"  id="result"   /></td>
+        <td><button value="C" onclick="clearScreen()" style="background-color: red; color:black">C</button>
+        </td>
+          </tr>
+            
+          <tr >
+            
+            <td><button  onclick="display('1')" >1</button></td>
+            <td><button  onclick="display('2')" >2</button></td>
+            <td><button  onclick="display('3')" >3</button></td>
+            <td><button  onclick="display('+')" >+</button></td>
+          </tr>
+   
+<tr >
+            <td><button  onclick="display('4')" >4</button></td>
+            <td><button  onclick="display('5')" >5</button></td>
+            <td><button  onclick="display('6')" >6</button></td>
+            <td><button  onclick="display('-')" >-</button></td>
+          </tr>
+          
+          <tr >
+            <td><button  onclick="display('7')" >7</button></td>
+            <td><button  onclick="display('8')" >8</button></td>
+            <td><button  onclick="display('9')" >9</button></td>
+            <td><button  onclick="display('*')" >*</button></td>
+          </tr>
+          
+          <tr>
+            <td><button  onclick="display('.')">.</button></td>
+            <td><button  onclick="display('0')" >0</button></td>
+            <td><button  onclick="calculate()" style="background-color:red; color:green">=</button></td>
+            <td><button  onclick="display('/')" >/ </button></td>
+          </tr> </div></table>
+                
+<script>
+ function func(e){
+const val = document.getElementById("result").value;
+console.log(val);
+
+  }
+ function clearScreen() {
+    document.getElementById("result").value = ' ';
+}
+function display(value) {
+    document.getElementById("result").value=vlue+value;
+}
+function calculate() {
+    var a = document.getElementById("result").value;
+    var b = eval (a);
+    document.getElementById("result").value=b;
+    }  
+  
+</script>
+        </body>
+</html>

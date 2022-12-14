@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.row1 {
+  background-color: bisque;
+}
+.display {
+  background-color: gray;
+  border: 1px groove black;
+  border-radius: 10%;
+}
+.calculator {
+  border: 2px groove black;
+  background-color: aqua;
+  display: inline-block;
+  margin-left: 200px;
+  top: 0;
+}
+.num1 {
+  color: red;
+}

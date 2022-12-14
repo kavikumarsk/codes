@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>face book page</title>
+
+    <h1 class="kavin">facebook</h1>
+    <link rel="stylesheet" input="text/css" href="facebook.css" />
+  </head>
+  <body>
+    <div>
+    
+    <p class="para">Facebook helps you connect and share with the people in your life.></p>
+    
+    <div  class="input" >
+      <form action="/action_page.php" class="form">
+        <label for="fname" style="background-color: white; width: 100%;">Enter username:</label><br />
+        <input
+          class="input1"
+          type="text"
+          id="fname"
+          
+          placeholder="Enter username or mobile"
+        /><br />
+        <label for="lname" style="background-color:white; width: 100%">Password:</label><br />
+        <input
+          type="password"
+          class="input2"
+          type="password"
+          id="lname"
+          name="lname"
+          placeholder="password"/></button></br></form>
+          
+        <button type="submit" class="login">login</button></br>
+    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" style="background-color:white">forgotpassword?</a>
+  </form>
+    <hr />
+      <button type="input"class="new"  onclick="Createpage()"> Create New Account</button>
+    </div></div>
+    <script>
+const email = 'kavin';
+const pass ='kumar';
+
+function Createpage(){
+if(document.getElementById('fname').value==email&&document.getElementById('lname').value==pass){
+window.location.assign("file:///C:/Users/Selva/Desktop/kavin/test1/image.html")
+}else{ document.write("this password is wrong")}}
+
+
+
+    </script>
+  </body>
+</html>

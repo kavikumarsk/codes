@@ -1,0 +1,74 @@
+* {
+  /*margin-top: 0;*/
+  background-color: #ccc;
+}
+.kavin {
+  color: blue;
+  text-size-adjust: left;
+  text-transform: capitalize;
+  padding-top: 100px;
+  padding-left: 30px;
+  text-shadow: none;
+  outline-offset: solid 50px blue;
+  margin-left: 45%;
+}
+.input {
+  position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 25%;
+  padding: 12px 20px;
+  text-align: center;
+  margin: 8px 0;
+  margin-left: 45%;
+  justify-items: center;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 20px;
+}
+.login {
+  width: 50%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px;
+  border: brown;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.input1 {
+  color: blue;
+  border: 0.5px solid lightskyblue;
+  background-color: floralwhite;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+.input2 {
+  color: blue;
+  border: 0.5px solid lightskyblue;
+  background-color: floralwhite;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+.para {
+  margin-left: 45%;
+  font-size: 25px;
+}
+.new {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.form {
+  background-color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}

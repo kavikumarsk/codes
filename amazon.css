@@ -1,0 +1,76 @@
+* {
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.para {
+  color: black;
+  text: wrap;
+  padding-top: 75px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: x-large;
+  line-height: 30px;
+}
+.border {
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 800px;
+  border-radius: 5px;
+}
+.btn {
+  border: none;
+  color: aquamarine;
+  background: none;
+}
+.Visit:hover {
+  color: red;
+}
+
+.btn1 {
+  background-color: yellow;
+  border-radius: 50px;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  box-shadow: aqua;
+}
+.btn2 {
+  background-color: orange;
+  border-radius: 50px;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+.price {
+  color: red;
+}
+.link {
+  position: static;
+}
+
+.hi::before {
+  content: "nnn";
+  color: red;
+}
+
+.hi::after {
+  content: "mmmmmm";
+  color: red;
+}
+[bb="--"].hi::after {
+  color: blue;
+}
+[bb="---"].hi::after {
+  color: greenyellow;
+  display: none;
+}
+#divv::after {
+  content: attr(innerHTML);
+  color: red;
+}

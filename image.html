@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>images</title>
+    <link rel="stylesheet" href="image.css"  />
+  </head>
+  <body>
+    <div class="slideshow-container">
+
+    
+      <img id='img'
+        src=''
+        alt="nothing"
+        width="50%"
+      />
+    </div>
+    <div>
+      <button class="btn1" onclick="start()">start<button>
+      <button class="btn2" onclick="stop()">stop </button>
+      <!--- </div>
+    --<p class="imgs">This is for training for iamges</p>
+    </div>-->
+<script>
+let slideIndex = 0;
+
+const images=["file:///C:/Users/Selva/Desktop/img2.jpg" ," file:///C:/Users/Selva/Desktop/img1.jpg","file:///C:/Users/Selva/Desktop/img3.jpg","file:///C:/Users/Selva/Desktop/img4.jpg",]
+
+const img =document.getElementById('img')
+image()
+
+function start(){
+ let interval = setInterval(()=>{
+    if(slideIndex<images.length-1)slideIndex++;
+    else slideIndex=0; 
+    document.getElementById('img').src = images[slideIndex];
+  },1000)
+stop = () =>{
+  clearInterval(interval)
+}
+  /*console.log(images[slideIndex]);
+ /* if(slideIndex<3)
+  slideIndex+=1;*/
+ 
+}
+/*function minusSlides()
+{ if(slideIndex>0){ 
+  slideIndex-=1;
+    image()
+  }}*/
+ function image(){
+  img.src=images[slideIndex];
+}
+ 
+
+
+</script>
+  </body>
+</html>

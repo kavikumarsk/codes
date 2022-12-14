@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon page</title>
+    <link rel="stylesheet" type="text/css" href="amazon.css" />
+    <script>
+      src = "new java.js";
+    </script>
+  </head>
+  <hr />
+  <body>
+    <input id="input" />
+    <div id="divv">ddddd</div>
+    <script>
+      document.getElementById("input").addEventListener("change", () => {
+        let val = document.getElementById("input").value;
+        let dv = document.getElementById("divv").style;
+        val % 2 === 0 ? (dv.color = "red") : (dv.color = "blue");
+      });
+    </script>
+  </body>
+</html>

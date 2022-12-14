@@ -1,0 +1,11 @@
+.btn2 {
+  color: aqua;
+  background-color: black;
+  cursor: pointer;
+}
+.btn1 {
+  color: wheat;
+  background-color: black;
+  cursor: pointer;
+  margin-left: 41%;
+}
