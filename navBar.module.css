@@ -1,0 +1,14 @@
+.nav_wrap {
+  color: red;
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-end;
+  justify-content: space-evenly;
+}
+.nav_wrap:hover {
+  color: brown;
+}
+
+.navs {
+  color: blue;
+}
